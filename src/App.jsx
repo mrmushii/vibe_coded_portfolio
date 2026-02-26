@@ -2,6 +2,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
 import Philosophy from './components/Philosophy'
+import Protocol from './components/Protocol'
+import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -10,11 +13,9 @@ function App() {
       <Hero />
       <Features />
       <Philosophy />
-
-      {/* Spacer for scroll testing */}
-      <section className="h-[100vh] bg-off-white flex items-start justify-center pt-20">
-        <p className="font-mono text-sm text-dark/40">// more sections coming soon</p>
-      </section>
+      <Protocol />
+      <Projects />
+      <Footer />
     </div>
   )
 }
